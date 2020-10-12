@@ -14,9 +14,9 @@ public class GetTimeInAZone {
 		
 		Instant time=Instant.now();
 		ZonedDateTime londonTime=time.atZone(ZoneId.of("Europe/London"));
-		ZonedDateTime newyorkTime=time.atZone(ZoneId.of("America/New_York"));
+		ZonedDateTime newyorkTime=time.atZone(ZoneId.of("US/Eastern"));
 		
-		//Time Zone IDs:https://garygregory.wordpress.com/2013/06/18/what-are-the-java-timezone-ids/
+		//Time Zone IDs:https:https://beginnersbook.com/2013/05/java-date-timezone/
 		
 		//To format using DateTimeFormatter class
 		

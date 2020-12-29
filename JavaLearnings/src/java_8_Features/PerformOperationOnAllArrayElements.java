@@ -10,6 +10,7 @@ public class PerformOperationOnAllArrayElements {
 		
 		//1. Method--> mapToObj
 		int[] input= {100,200,494334,3432423,7676,767613,333,333,3432423};
+		//System.out.println(Arrays.stream(input).mapToObj(i->i*(-1)).collect(Collectors.toSet()));
 		System.out.println(Arrays.stream(input).mapToObj(i->i*(-1)).collect(Collectors.toSet()));
 		
 	}
